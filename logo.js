@@ -32,7 +32,7 @@ function logo(logoChannel) {
        class="logo-item"
        onclick="play('${num.id}','TVLocal')"
      >
-     <img class="logo" alt="${num.id}"  src="../wordspage/image/logo/${num.logo}" />
+     <img class="logo" alt="${num.id}"  src="./wordspage/image/logo/${num.logo}" />
      <img class="logo_cuntry" alt="${num.id}"  src="./wordspage/image/flag/${num.nation}.png" />
       </div>
     `
